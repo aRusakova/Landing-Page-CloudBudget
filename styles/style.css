@@ -579,7 +579,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
     }
     .img {
         min-width: 380px;
-        height: 235px;
+        height: 266px;
     }
 }
 
@@ -621,7 +621,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
     .img {
         padding-right: 0;
         min-width: 405px;
-        height: 250px;
+        height: 283px;
         margin: 0 auto;
     }
     .content-box__links {
@@ -688,7 +688,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
     }
     .img {
         min-width: 300px;
-        height: 185px;
+        height: 210px;
     }
     .blocks-box__card {
         margin: 0;
