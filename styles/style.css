@@ -37,6 +37,10 @@ img{vertical-align: top;}
 h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 /*--------------------*/
 
+.wrapper {
+    overflow: hidden;
+}
+
 .main-section {
     width: 100vw;
     height: 100vh;
@@ -332,6 +336,19 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 
 .card__img-card {
     text-align: center;
+    position: relative;
+    margin-bottom: 19px;
+}
+
+.card__img-wrapper{
+    width: 70px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    position: absolute;
+    top: 70px;
+    right: calc(50% - 35px);
 }
 
 .card__number {
@@ -339,10 +356,6 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
     font-size: 100px;
     line-height: 120px;
     color: rgba(16, 16, 16, 0.08);
-}
-
-.card__img {
-    margin-top: -60px;
 }
 
 .download-section {
@@ -361,8 +374,10 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
     margin-top: 40px;
 }
 
-.links-wrapper__link{
-    margin-right: 23px;
+.links-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 23px;
 }
 
 .contact-section__content-box {
@@ -622,8 +637,8 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
         min-width: 405px;
         height: 250px;
     }
-    .content-box__links-wrapper {
-        text-align: center;
+    .links-wrapper {
+        justify-content: center;
     }
     .form-block__button{
         text-align: center;
